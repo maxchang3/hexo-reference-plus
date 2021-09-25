@@ -1,3 +1,7 @@
+>this plugin is under developing, DO NOT USE IT except you have ability to test it. 
+
+>Possible it will destroy your blog files please backup your file before using.
+
 # hexo-reference-plus
 A hexo plugin to support reference and footnotes marked  by markdown in your hexo blog
 
@@ -40,4 +44,3 @@ So here is the way what Max C. Foo(2021)[1] do.
 
 ```
 
-#
