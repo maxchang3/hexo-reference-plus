@@ -6,6 +6,6 @@
   "author": "maxchang3",
   "license": "MIT",
   "dependencies": {
-    "jsdom": "^17.0.0"
+    "linkedom": "^0.12.1"
   }
 }
