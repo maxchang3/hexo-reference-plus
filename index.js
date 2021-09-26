@@ -3,7 +3,7 @@ const referParser = require('./src/referParser');
 
 hexo.extend.tag.register('references', function (args, content) {
     let reference = referParser(content)
-    return `<ul id='refplus'>${reference.join('<br>')}</ul>`;
+    return `<ul id='refplus'>${reference.join('')}</ul>`;
 }, { ends: true });
 
 hexo.extend.tag.register('ref', function (args) {
@@ -14,5 +14,14 @@ hexo.extend.tag.register('ref', function (args) {
 hexo.extend.filter.register('after_post_render', (data) => {
     if (!(data.refplus)) return data;
     data.content = htmlReplacer(data.content);
+    data.content += `
+    <style>
+    #refplus, #refplus li{ 
+        padding:0;
+        margin:0;
+        list-style:none;
+    }
+    </style>
+    `
     return data
 });
