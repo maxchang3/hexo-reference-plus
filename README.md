@@ -1,9 +1,10 @@
 # hexo-reference-plus
 <details>
 <summary>GIF preview (3mb)</summary>
-[![](https://z3.ax1x.com/2021/09/27/4gfIiD.gif)](https://imgtu.com/i/4gfIiD)
-</details>
 
+![](https://z3.ax1x.com/2021/09/27/4gfIiD.gif)
+
+</details>
 A hexo plugin to support reference and footnotes marked  by markdown in your hexo blog
 - [x] auto serial number 
 - [x] tooltip with tippy.js 
