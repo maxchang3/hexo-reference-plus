@@ -1,6 +1,6 @@
 {
   "name": "hexo-reference-plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": " A hexo plugin to support simply reference marked and footnotes by markdown in your hexo blog.d ",
   "main": "index.js",
   "author": "maxchang3",
