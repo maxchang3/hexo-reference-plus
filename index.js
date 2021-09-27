@@ -3,7 +3,6 @@ const referParser = require('./src/referParser');
 
 hexo.extend.tag.register('references', function (args, content) {
     let reference = referParser(content)
-
     return `<ul id='refplus'>${reference.join('')}</ul>`;
 }, { ends: true });
 
