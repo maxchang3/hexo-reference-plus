@@ -1,6 +1,6 @@
 # hexo-reference-plus
 <details>
-<summary>GIF preview (3mb)<summary>
+<summary>GIF preview (3mb)</summary>
 [![](https://z3.ax1x.com/2021/09/27/4gfIiD.gif)](https://imgtu.com/i/4gfIiD)
 </details>
 
