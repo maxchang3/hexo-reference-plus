@@ -39,7 +39,3 @@ hexo.extend.filter.register('after_post_render', (data) => {
     `
     return data
 });
-
-hexo.extend.injector.register('body_end', () => {
-    return js('/js/jquery.js');
-  });
