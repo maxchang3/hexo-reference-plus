@@ -21,8 +21,25 @@ hexo.extend.filter.register('after_post_render', (data) => {
         padding:0;
         margin:0;
         list-style:none;
-    }
+    }；
     </style>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script>
+    document.querySelectorAll(".refplus-num").forEach((ref) => {
+        let refid = ref.firstChild.href.replace(location.origin+location.pathname,'');
+        let refel = document.querySelector(refid);
+        let refnum = refel.dataset.num;
+        let ref_content = refel.innerText.replace(\`[\${refnum}]\`,'');
+        tippy(ref, {
+            content: ref_content,
+        });
+    });
+    </script>
     `
     return data
 });
+
+hexo.extend.injector.register('body_end', () => {
+    return js('/js/jquery.js');
+  });
