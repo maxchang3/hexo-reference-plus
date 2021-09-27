@@ -8,9 +8,13 @@ English | [简体中文](https://github.com/MaxChang3/hexo-reference-plus/blob/m
 </details>
 
 A hexo plugin to support reference and footnotes marked  by markdown in your hexo blog
-- [x] auto serial number 
+
+- [x] auto serial number
+
 - [x] tooltip with tippy.js 
+
 - [x] easy to use  grammar 
+
 - [x] configuration in front-matter for minimize 
 
 
