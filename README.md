@@ -1,4 +1,5 @@
 # hexo-reference-plus
+English | [简体中文](https://github.com/MaxChang3/hexo-reference-plus/blob/main/README_CN.md)
 <details>
 <summary>GIF preview (3mb)</summary>
 
