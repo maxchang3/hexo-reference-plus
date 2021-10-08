@@ -28,6 +28,7 @@ or
 ```
 npm install hexo-reference-plus
 ```
+[![NPM](https://nodei.co/npm/hexo-reference-plus.png)](https://nodei.co/npm/hexo-reference-plus/)
 
 ## Usage
 All you need to do is Three steps:
