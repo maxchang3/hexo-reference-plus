@@ -1,5 +1,6 @@
 module.exports = (content) => {
     let reference = content.replace(/^(?=\n)$|^\s*|\s*$|\n\n+/gm,"").split('\n');
+    if(reference[0]=='') reference.shift();
     reference = reference.map((ref, index) => {
         let alias_start = ref.indexOf("[");
         let alias_end = ref.indexOf("]", 1);
