@@ -1,5 +1,7 @@
 const htmlReplacer = require('./src/htmlReplacer');
 const referParser = require('./src/referParser');
+const { config } = hexo;
+
 
 hexo.extend.tag.register('references', function (args, content) {
     let reference = referParser(content)
@@ -21,7 +23,9 @@ hexo.extend.filter.register('after_post_render', (data) => {
         margin:0;
         list-style:none;
     }；
-    </style>
+    </style>`
+    if(config?.refplus?.tippy==false) return data;
+    data.content += `
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
     <script>
