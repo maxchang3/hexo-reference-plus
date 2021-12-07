@@ -53,11 +53,11 @@ So here is the way what Max C. Foo(2021){% ref mcf01 %} do.
 ```
 that's it.
 
-## thoughts
-<details>
-<summary>some thoughts</summary>
-In past the days, I always wrote posts in hexo quote some references by the markdown links grammar. But it's not an elegant way to do that: you need to manage the serial numbers and links to this or that, or any other things else.
+# Config
 
-Maybe are there some plugins which can help me optimize this process? In fact, I found hexo-reference above, but it's not all designed for me exactly. Also, there is still a serial numbers management problem. so I develop this plugin.
-
-</details>
+Add this config in your `_config.yml` to swtich the tippy js.
+```yaml
+# hexo-reference-plus
+refplus:
+  tippy: true
+```
