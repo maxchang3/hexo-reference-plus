@@ -53,7 +53,7 @@ So here is the way what Max C. Foo(2021){% ref mcf01 %} do.
 ```
 that's it.
 
-# Config
+## Config
 
 Add this config in your `_config.yml` to swtich the tippy js.
 ```yaml
