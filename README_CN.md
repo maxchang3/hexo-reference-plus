@@ -54,10 +54,11 @@ So here is the way what Max C. Foo(2021){% ref mcf01 %} do.
 ```
 完成。
 
-## 一些想法
-<details>
-<summary>一些想法</summary>
-过去这段时间我经常使用hexo写一些文章，难免会遇到引用的场景，这时候我一般使用链接来手动实现。但很明显这不是个优雅的方法：你需要管理序号与链接，比如删除了其中一个就需要重新排号，还有其他各种麻烦的问题。
+## 配置
 
-也许会有一些插件可以帮助我完成这个流程？然后我就找到了`hexo-reference`，但是他并不完全适合我，而且仍然存在序号管理的问题。与`hexo-render-marked`语法相似的他确实在这种场景下是一个不错的选择。最后折腾之下我就开发了这个插件。
-</details>
+在你的 `_config.yml` 下添加以下配置项以控制 tippy.js 的开关。
+```yaml
+# hexo-reference-plus
+refplus:
+  tippy: true
+```
