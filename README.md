@@ -64,3 +64,10 @@ Add this config in your `_config.yml` to swtich the tippy js.
 refplus:
   tippy: true
 ```
+
+use option `hide` in references tag to hide this area.
+```
+{% references hide %}
+[mcf-2021]  Max C. Foo.  A way to write an article.[J] Journal of Kelaideng University Samwin School. 2021.3 300-321.
+{% endreferences %}
+```

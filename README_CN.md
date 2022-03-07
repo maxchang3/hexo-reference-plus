@@ -64,3 +64,10 @@ So here is the way what Max C. Foo(2021){% ref mcf-2021 %} do.
 refplus:
   tippy: true
 ```
+
+可以使用 hide 参数来隐藏引用区域。
+```
+{% references hide %}
+[mcf-2021]  Max C. Foo.  A way to write an article.[J] Journal of Kelaideng University Samwin School. 2021.3 300-321.
+{% endreferences %}
+```
