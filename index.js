@@ -5,7 +5,9 @@ const { config } = hexo;
 
 hexo.extend.tag.register('references', function (args, content) {
     let reference = referParser(content)
-    return `<ul id='refplus'>${reference.join('')}</ul>`;
+    let addStlye = ""
+    if(args.includes("hide")) addStlye+="display:none;"
+    return `<ul id='refplus' style="${addStlye}">${reference.join('')}</ul>`;
 }, { ends: true });
 
 hexo.extend.tag.register('ref', function (args) {
