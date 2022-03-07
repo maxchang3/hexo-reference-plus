@@ -42,7 +42,7 @@ refplus: true
 ```
 
 
-然后，在文章末尾标注references区域，给每一个引用分配一个别名（推荐不要包括序号）
+然后，在**文章末尾**标注 references 区域，给每一个引用分配一个别名（推荐不要包括序号）
 ```
 {% references %}
 [mcf-2021]  Max C. Foo.  A way to write an article.[J] Journal of Kelaideng University Samwin School. 2021.3 300-321.
@@ -50,8 +50,10 @@ refplus: true
 ```
 最后，在你需要引用的位置标记上面你设置的别名
 ```
-So here is the way what Max C. Foo(2021){% ref mcf01 %} do.
+So here is the way what Max C. Foo(2021){% ref mcf-2021 %} do.
 ```
+> 注意：你必须在参考区域前使用别名，即上面的内容需要在 `references` 区域之前。
+> 
 完成。
 
 ## 配置

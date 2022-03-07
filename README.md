@@ -41,16 +41,19 @@ refplus: true
 ---
 ```
 
-Second, mark the references in the end, and assign each reference an alias(generally recommend do not contain serial number) like:
+Second, mark the references **in the end**, and assign each reference an alias(generally recommend do not contain serial number) like:
 ```
 {% references %}
 [mcf-2021]  Max C. Foo.  A way to write an article.[J] Journal of Kelaideng University Samwin School. 2021.3 300-321.
 {% endreferences %}
 ```
-Third, mark the  alias in the area you want, like:
+Third, mark the alias in the area you want, like:
 ```
-So here is the way what Max C. Foo(2021){% ref mcf01 %} do.
+So here is the way what Max C. Foo(2021){% ref mcf-2021 %} do.
 ```
+
+> Note: You need to use the alias before the reference area
+
 that's it.
 
 ## Config
