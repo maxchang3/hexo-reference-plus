@@ -1,7 +1,12 @@
 # hexo-reference-plus
 English | [简体中文](https://github.com/MaxChang3/hexo-reference-plus/blob/main/README_CN.md)
 
+<details>
+<summary>GIF Preview</summary>
+
 ![](https://s3.ax1x.com/2021/09/27/4gfIiD.gif)
+
+</details>
 
 
 A hexo plugin to support reference and footnotes marked  by markdown in your hexo blog

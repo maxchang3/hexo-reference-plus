@@ -1,9 +1,10 @@
 # hexo-reference-plus
 [English](https://github.com/MaxChang3/hexo-reference-plus) ｜ 简体中文
+
 <details>
 <summary>GIF 预览 (3mb)</summary>
 
-![](https://z3.ax1x.com/2021/09/27/4gfIiD.gif)
+![](https://s3.ax1x.com/2021/09/27/4gfIiD.gif)
 
 </details>
 
