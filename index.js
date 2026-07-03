@@ -24,7 +24,7 @@ hexo.extend.filter.register('after_post_render', (data) => {
         padding:0;
         margin:0;
         list-style:none;
-    }；
+    };
     </style>`
     if(config?.refplus?.tippy==false) return data;
     data.content += `
