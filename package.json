@@ -2,20 +2,26 @@
   "name": "hexo-reference-plus",
   "version": "1.1.0",
   "description": "A hexo plugin to support simply reference marked and footnotes by markdown. Auto serial number, tooltip, and more～",
-  "main": "index.js",
-  "author": "maxchang3",
-  "license": "MIT",
-  "dependencies": {
-    "linkedom": "^0.12.1"
-  },
+  "keywords": [
+    "footnotes",
+    "hexo",
+    "reference"
+  ],
   "homepage": "https://github.com/MaxChang3/hexo-reference-plus",
+  "license": "MIT",
+  "author": "maxchang3",
   "repository": {
     "type": "git",
     "url": "https://github.com/MaxChang3/hexo-reference-plus.git"
   },
-  "keywords": [
-    "hexo",
-    "reference",
-    "footnotes"
-  ]
+  "main": "index.js",
+  "scripts": {
+    "release": "bumpp && pnpm publish"
+  },
+  "dependencies": {
+    "linkedom": "^0.18.12"
+  },
+  "devDependencies": {
+    "bumpp": "^11.1.0"
+  }
 }
